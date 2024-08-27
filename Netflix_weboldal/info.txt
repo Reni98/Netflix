@@ -1,0 +1,11 @@
+ onclick="toggleVideo();"
+
+  function toggleVideo(){
+        const trailer = document.querySelector('.trailer');
+     
+        trailer.classList.toggle('active');
+        
+        video.pause();
+    }
+
+   
